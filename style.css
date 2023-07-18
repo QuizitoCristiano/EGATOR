@@ -170,6 +170,8 @@ nav {
 
 }
 
+
+
 nav button {
     display: none;
 }
@@ -710,7 +712,13 @@ header {
     }
 
     /*==========================================NAVE-BAR===========================*/
-
+    .nav_container {
+        height: 126%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
 
 
     .nav_menu {
