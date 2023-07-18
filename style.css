@@ -643,20 +643,20 @@ header {
     /*========================HEADER======================*/
 
     header {
-        background-color: #000;
+        /* background-color: #000; */
         height: 68vh;
         margin-bottom: 4rem;
     }
 
     header {
         gap: 0;
-        padding-bottom: 3rem;
+        padding-bottom: 3rem; 
     }
 
 
     /*============================================categoria=======================*/
     .categoria {
-        background: rgb(87, 76, 76);
+        /* background: rgb(87, 76, 76); */
         height: auto;
     }
 
