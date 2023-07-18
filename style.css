@@ -729,6 +729,8 @@ header {
 
     header {
         height: 100vh;
+      ;
+    
     }
 
     .header_container {
@@ -737,6 +739,7 @@ header {
         margin-top: -2rem;
         height: auto;
         margin-bottom: 1rem;
+       
     }
 
     .header-left p {
