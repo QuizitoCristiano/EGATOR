@@ -1,0 +1,211 @@
+:root {
+    --color-primary: #6c63ff;
+    --color-success: #00bf8e;
+    --color-waring: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-variant: rgba(247, 88, 66, 0. 4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+
+
+    --container-width-lg: 76%;
+    --container-width-md: 76%;
+    --container-width-sm: 76%;
+
+    --transition: all 400ms ease;
+}
+
+
+.contato_container {
+    background: var(--color-bg2);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+
+}
+
+/*==========================================Aside ===========================*/
+
+
+.contact_aside {
+    background: var(--color-primary);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+
+}
+
+.asid_imagem {
+    width: 100px;
+    /* margin-bottom: 2rem;
+    text-align: center; */
+}
+
+.contact_aside h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contact_aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact_detais {
+    gap: 2rem;
+
+}
+
+.contact_detais li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    border-bottom: 1rem;
+
+}
+
+.contato_social {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.contato_social a {
+    background: var(--color-bg2);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.contato_social a:hover {
+    background: transparent;
+
+}
+
+
+
+/*==========================================Form ===========================*/
+
+
+
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+
+
+}
+
+.form_name {
+    display: flex;
+    gap: 1.2rem;
+
+}
+
+.contact_form input[typ="text"] {
+    width: 50%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+.contact_form .btn {
+    width: max-content;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+.my_inputs {
+
+    width: 100%;
+    height: auto;
+}
+
+/*==========================================MIDIA QUERIS TABLETS===========================*/
+
+
+@media screen and (max-width: 1024px) {
+
+    .contato_container {
+        gap: 1.5rem;
+        /* background-color: #00bf8e; */
+        margin-top: 4rem;
+        padding: 1.8rem;
+
+    }
+
+    .contact_aside {
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .contact_form {
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+
+    .my_inputs {
+
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+/*==========================================MIDIA QUERIS CELULARES===========================*/
+
+
+
+@media screen and (max-width: 600px) {
+
+    .contato_container {
+
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        /* background-color: #00bf8e; */
+        height: auto;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .contact_form {
+        margin: 0 1.5rem 3rem;
+    }
+
+    .form_name {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form_name input[type="text"] {
+        width: 100%;
+    }
+
+    .my_inputs {
+
+        width: 100%;
+        height: auto;
+    }
+}
