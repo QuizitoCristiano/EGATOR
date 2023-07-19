@@ -274,8 +274,17 @@ header {
 }
 
 .categoria_left button {
-    background: #f75842;
-    border-radius: 4rem;
+    background: var(--color-white);
+    color: var(--color-bg2);
+    font-size: 0.9rem;
+    font-weight: 800;
+    transition: var(--transition);
+}
+
+.categoria_left button:hover {
+    border: 1px solid var(--color-white);
+    background: var(--color-bg);
+    color: var(--color-white);
 }
 
 .categoria_right {
@@ -498,10 +507,12 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
+
 }
 
 .footer_container>div h2 {
     margin-bottom: 1.2rem;
+    color: #f75842;
 }
 
 .footer ul li {
@@ -652,7 +663,7 @@ header {
 
     header {
         gap: 0;
-        padding-bottom: 3rem; 
+        padding-bottom: 3rem;
     }
 
 
@@ -703,6 +714,8 @@ header {
     .footer_container {
         grid-template-columns: 1fr 1fr;
     }
+
+
 }
 
 
@@ -729,8 +742,8 @@ header {
 
     header {
         height: 100vh;
-      ;
-    
+        ;
+
     }
 
     .header_container {
@@ -739,7 +752,7 @@ header {
         margin-top: -2rem;
         height: auto;
         margin-bottom: 1rem;
-       
+
     }
 
     .header-left p {
@@ -777,9 +790,10 @@ header {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
-    
-    
+
+
     }
+
     .footer_social-media {
         padding: 2rem;
         justify-content: center;
@@ -790,4 +804,3 @@ header {
     }
 
 }
-
