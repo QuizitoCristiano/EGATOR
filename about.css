@@ -36,7 +36,7 @@
     margin: 1.6rem 0 2.5rem;
 }
 
-.about_achievements-left {}
+
 
 .achievements_cards {
     display: grid;
@@ -44,6 +44,9 @@
     gap: 1.5rem;
 }
 
+.about_achievements-left img {
+    border-radius: 1rem;
+}
 
 .achievements-card {
     background: var(--color-bg1);
@@ -168,6 +171,13 @@
 }
 
 
+.about_achievements-right h1 {
+    color: #f75842;
+}
+
+.team h2 {
+    color: #f75842;
+}
 
 
 
@@ -187,7 +197,10 @@
     .about_achievements-left {
         width: 80%;
         margin: 0 auto;
+
     }
+
+
 
     .team_container {
         grid-template-columns: repeat(3, 1fr);

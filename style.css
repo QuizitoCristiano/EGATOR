@@ -214,7 +214,9 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 5rem;
-    height: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+
 
 }
 
@@ -302,6 +304,7 @@ header {
 
 .category h5 {
     margin: 1rem 0 1rem;
+    color: var(--color-danger);
 }
 
 .category p {
@@ -439,6 +442,19 @@ header {
     overflow: hidden;
     position: relative;
     margin-bottom: 5rem;
+    /* display: grid;
+    grid-template-columns: 3fr 3fr; */
+}
+
+.swiper-wpapper {
+    /* background: red; */
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 2rem;
+    text-align: center;
+
 }
 
 .testmonial {
@@ -683,6 +699,17 @@ header {
 
     }
 
+    .swiper-wpapper {
+
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+
+    }
+
     /*==========================================CURSOS POPULAR===========================*/
 
     .Cursos {
@@ -716,12 +743,24 @@ header {
     }
 
 
+    .wrapper h2 {
+
+        font-size: 1.4rem;
+    }
+
+
+
 }
 
 
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+    }
+
+    .wrapper h2 {
+
+        font-size: 1.2rem;
     }
 
     /*==========================================NAVE-BAR===========================*/
@@ -801,6 +840,19 @@ header {
 
     .footer_1 p {
         margin: 1rem auto;
+    }
+
+
+
+    .swiper-wpapper {
+
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+
     }
 
 }
