@@ -568,7 +568,7 @@ header {
 .footer_social-media {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
     font-size: 2rem;
 
@@ -581,6 +581,10 @@ header {
     border-top: 1px solid var(--color-bg2);
 }
 
+.footer_4 {
+    text-align: left;
+    gap: 8rem;
+}
 
 
 /*=====================================MEDIA QUERIS===========================*/
@@ -772,7 +776,11 @@ header {
         font-size: 1.4rem;
     }
 
+    .footer_4 {
 
+        text-align: center;
+        gap: 8rem;
+    }
 
 }
 
@@ -877,7 +885,11 @@ header {
         margin: 1rem auto;
     }
 
+    .footer_4 {
 
+        text-align: center;
+        gap: 8rem;
+    }
 
     .swiper-wpapper {
 
