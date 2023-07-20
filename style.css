@@ -40,7 +40,7 @@
 
     --container-width-lg: 76%;
     --container-width-md: 76%;
-    --container-width-sm: 76%;
+    --container-width-sm: 90%;
 
     --transition: all 400ms ease;
 }
@@ -72,7 +72,7 @@ body {
 
 .header_right-image img {
     width: 100%;
-    height: 30rem;
+    height: 40rem;
 }
 
 section {
@@ -147,6 +147,7 @@ img {
     color: var(--color-white);
     font-weight: 700;
 }
+
 
 
 /*============================NAVEBAR=============================*/
@@ -224,6 +225,11 @@ header {
     margin: 1rem 0 2.4rem;
 }
 
+.header-left h1 {
+    color: var(--color-danger);
+    font-size: 34px;
+    margin: 1rem 0 2.4rem;
+}
 
 /*============================================categoria=======================*/
 
@@ -339,8 +345,11 @@ header {
     color: #f75842;
 }
 
+
 .info_cursos h2 {
-    color: #fff;
+    color: var(--color-danger);
+    padding-left: 0;
+
 }
 
 .curso_imagem {
@@ -436,7 +445,10 @@ header {
 /*==========================================TESTIMONIOS===========================*/
 
 
-
+.info_cursos h2 {
+    color: var(--color-danger);
+    padding: 1rem;
+}
 
 .testimonials_Container {
     overflow: hidden;
@@ -444,6 +456,11 @@ header {
     margin-bottom: 5rem;
     /* display: grid;
     grid-template-columns: 3fr 3fr; */
+}
+
+
+.testimonials_container h2 {
+    color: var(--color-danger);
 }
 
 .swiper-wpapper {
@@ -574,9 +591,10 @@ header {
         width: var(--container-width-md);
     }
 
+    /* 
     h1 {
         font-size: 2.2rem;
-    }
+    } */
 
     h2 {
         font-size: 1.7rem
@@ -590,6 +608,11 @@ header {
         font-size: 1.2rem
     }
 
+    .header-left h1 {
+        color: var(--color-danger);
+        font-size: 1.7rem;
+        margin: 1rem 0 2.4rem;
+    }
 
     /*=====================================NAVEBAR===========================*/
     nav button {
@@ -675,6 +698,7 @@ header {
         /* background-color: #000; */
         height: 68vh;
         margin-bottom: 4rem;
+
     }
 
     header {
@@ -763,6 +787,12 @@ header {
         font-size: 1.2rem;
     }
 
+    .info_cursos h2 {
+        color: var(--color-danger);
+        padding-left: 0;
+        font-size: 20px;
+    }
+
     /*==========================================NAVE-BAR===========================*/
     .nav_container {
         height: 126%;
@@ -798,6 +828,11 @@ header {
         margin-bottom: 1.3rem;
     }
 
+    .header-left h1 {
+        color: var(--color-danger);
+        font-size: 1.5rem;
+        margin: 1rem 0 2.4rem;
+    }
 
     /*============================================categoria=======================*/
 

@@ -14,7 +14,8 @@
 
     --container-width-lg: 76%;
     --container-width-md: 76%;
-    --container-width-sm: 76%;
+    /* --container-width-sm: 76%; */
+    --container-width-sm: 90%;
 
     --transition: all 400ms ease;
 }
